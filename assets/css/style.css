@@ -2146,7 +2146,23 @@ width: 100%;position: relative;
 }
 
 /* Home Page */
-@media (max-width: 1920px) {
+@media (max-width: 1024px) {
+	.bottom-grid-top-row {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+	.hero-background-video{
+		display: none;
+	}
+	.video-mobile{
+		display: block;
+	}
+	.hero-overlay-content{
+		margin-top: -60%;
+		
+	}
+	
+}
+@media (min-width: 1600px) {
 	.bottom-grid-top-row {
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
