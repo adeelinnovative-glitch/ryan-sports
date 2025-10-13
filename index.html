@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYAN Sports Club - Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section" >
+            <div class="hero-background-video">
+        <video autoplay muted loop playsinline>
+            <source src="assets/videos/video-herobg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<div class="scroll-down">
+    <span></span>
+</div>
+       </header>
+    
+    <section class="hero-body">
+          <div class="hero-background-image" >
+            
+            <img src="assets/images/herobg.jpg" alt="High-energy sports background">
+        </div>
+        <div class="hero-overlay-content" data-aos="fade-up" data-aos-delay="700">
+            <h1 class="hero-title">Unleash Your Potential</h1>
+            <p class="hero-subtitle">RYAN Sports Club Redefining Excellence</p>
+            <div class="hero-ctas">
+                <a href="membership.html" class="btn  primary-btn">JOIN MEMBERSHIP</a>
+                <a href="facilities.html" class="btn  secondary-btn">EXPLORE FACILITIES</a>
+                <a href="gallery.html" class="btn tertiary-btn">VIEW GALLERY</a>
+            </div>
+        </div>
+   
+<main class="main-content" data-aos="fade-up" data-aos-delay="700">
+        <div class="container">
+
+            <section class="section facilities-section">
+                <div class="facilities-grid">
+
+                    <div class="card facility-card">
+                        <img src="assets/images/indoor.jpg" alt="Indoor Sports" class="card-image">
+                        <h3 class="card-title">Indoor Sports</h3>
+                        <p class="card-description">Discover our world-class, climate-controlled indoor courts and
+                            arenas for basketball, tennis, and volleyball.</p>
+                        <a href="indoor.html" class="btn cards-btn">Learn More</a>
+                    </div>
+
+                    <div class="card facility-card">
+                        <img src="assets/images/outdoor.jpg" alt="Outdoor Sports" class="card-image">
+                        <h3 class="card-title">Outdoor Sports</h3>
+                        <p class="card-description">Enjoy our state-of-the-art outdoor fields, tracks, and swimming
+                            pools under the open sky.</p>
+                        <a href="outdoor.html" class="btn cards-btn">Learn More</a>
+                    </div>
+
+                    <div class="card facility-card">
+                        <img src="assets/images/recreation.jpg" alt="Recreation" class="card-image">
+                        <h3 class="card-title">Recreation & Wellness</h3>
+                        <p class="card-description">Relax and rejuvenate in our dedicated recovery suites, member
+                            lounges, and fitness studios.</p>
+                        <a href="recreation.html" class="btn cards-btn">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section bottom-grid-section" data-aos="fade-up" data-aos-delay="700">
+
+                <div class="bottom-grid-top-row">
+
+                    <div class="bottom-grid-item latest-events">
+                        <h2 class="section-title">LATEST EVENTS & NEWS</h2>
+                        <div class="event-cards-grid">
+                            <div class="event-card">
+                                <img src="assets/images/event1.jpg" alt="Event 1" class="event-image">
+                                <div class="event-info">
+                                    <h4>Community Triathlon</h4>
+                                    <p>Join our annual triathlon challenge this Sunday.</p>
+                                    <a href="details.html#event-triathlon" class="read-more">details →</a>
+                                </div>
+                            </div>
+                            <div class="event-card">
+                                <img src="assets/images/event2.jpg" alt="Event 2" class="event-image">
+                                <div class="event-info">
+                                    <h4>Youth Sports Camp</h4>
+                                    <p>Sign up for our summer camp enrollment is open.</p>
+                                    <a href="details.html#event-camp" class="read-more">details →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-grid-item yearly-activities">
+                        <h2 class="section-title">YEARLY ACTIVITIES</h2>
+                        <div class="activity-list">
+                            <ul>
+                                <li>Annual Swimming Gala <a href="details.html#gala_detail"
+                                        class="read-more">(details)</a></li>
+                                <li>Inter-Club Football League <a href="details.html#football_detail"
+                                        class="read-more">(details)</a></li>
+                                <li>Health & Wellness Workshops <a href="details.html#wellness_detail"
+                                        class="read-more">(details)</a></li>
+                                <li>Junior Athletics Meet <a href="details.html#athletics_detail"
+                                        class="read-more">(details)</a></li>
+                                <li>Members' Social Evenings <a href="details.html#social_detail"
+                                        class="read-more">(details)</a></li>
+                            </ul>
+                            <a href="details.html#yearly-activities" class="btn card-btn view-all-activities-btn">View
+                                Full Calendar</a>
+                        </div>
+                    </div>
+
+                    <div class="bottom-grid-item featured-athletes">
+                        <h2 class="section-title">FEATURED ATHLETES</h2>
+                        <div class="athletes-grid">
+                            <div class="athlete-profile">
+                                <img src="assets/images/athlete1.jpg" alt="Athlete 1" class="athlete-image">
+                                <h4>David T.</h4>
+                                <p>Basketball Champion</p>
+                                <a href="details.html#profile-david-t" class="read-more">view profile</a>
+                            </div>
+                            <div class="athlete-profile">
+                                <img src="assets/images/athlete2.jpg" alt="Athlete 2" class="athlete-image">
+                                <h4>Sarah J.</h4>
+                                <p>Swimming Champion</p>
+                                <a href="details.html#profile-sarah-j" class="read-more">view profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+    </main>
+
+    </section>
+    
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

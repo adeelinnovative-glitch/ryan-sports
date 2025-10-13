@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li class="active"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="section-header" style="padding: 6rem;">
+        <div class="hero-background-image">
+            <img src="assets/images/herobg.jpg" alt="">
+        </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h1 style="font-size: 3rem;">
+                Get in Touch. <span style="color: var(--accent-orange);">We're Here to Help.</span>
+            </h1>
+            <p class="membership-section-subtitle">
+                Whether you have an inquiry, need to book a tour, or want to provide feedback, reach out to the right
+                department below.
+            </p>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <section class="contact-grid-section " style="background-color: var(--secondary-dark);">
+        <div class="container contact-grid "data-aos="fade-up" data-aos-delay="700">
+
+            <div class="contact-card" style="background-color: var(--primary-dark);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="card-icon">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <h4>General Inquiries</h4>
+                <p><a href="mailto:info@ryanclub.com">info@ryanclub.com</a></p>
+                <p>Mon - Fri: 9am - 5pm</p>
+            </div>
+
+            <div class="contact-card " style="background-color: var(--primary-dark);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="card-icon">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-4.75-4.75 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.08 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
+                <h4>Membership Office</h4>
+                <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                <p>Extension 101 for Sales</p>
+            </div>
+
+            <div class="contact-card" style="background-color: var(--primary-dark);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="card-icon">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h4>Facility Hours</h4>
+                <p>Mon - Fri: 5am - 10pm</p>
+                <p>Sat - Sun: 7am - 8pm</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Location -->
+    <section class="main-content-grid">
+        <div class="container" style="display: contents;"data-aos="fade-up" data-aos-delay="700">
+
+            <div class="map-column">
+                <h3 style="font-size: 2rem; text-align: center; margin-bottom: 1rem;color: var(--accent-blue);">
+                    Find Our Location
+                </h3>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8317674940013!2d67.2031210748813!3d24.90371944352619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb337007d3ec103%3A0x574bbbdc0b32cacd!2sAptech%20Malir%20Center!5e0!3m2!1sen!2s!4v1759765637235!5m2!1sen!2s"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="form-column">
+                <div class="form-container"data-aos="fade-up" data-aos-delay="700">
+                    <div class="form-header">
+                        <h3>Send Us a Message</h3>
+                        <p>Have a question or feedback? Use the form below.</p>
+                    </div>
+
+                    <form>
+
+                        <div class="membership-form-group">
+                            <label for="contact-name">Your Full Name</label>
+                            <input type="text" id="contact-name" name="contact_name" required>
+                        </div>
+
+                        <div class="membership-form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" name="contact_email" required>
+                        </div>
+
+                        <div class="membership-form-group">
+                            <label for="contact-topic">Reason for Contact</label>
+                            <select id="contact-topic" name="contact_topic" required>
+                                <option value="">~ Select a topic ~</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="booking">Court/Facility Booking Question</option>
+                                <option value="feedback">General Feedback/Suggestion</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="membership-form-group">
+                            <label for="contact-message">Your Message</label>
+                            <textarea id="contact-message" name="contact_message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Submit Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="detail-view" class="detail-section"data-aos="fade-up" data-aos-delay="700">
+        <div class="container">
+            <!-- SECTION:1 INDOOR SPORTS ARENA -->
+            <div id="indoor-sports" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Indoor <span style="color: var(--accent-orange);">Sports Arena</span>
+                </h1>
+            </div>
+            <!-- FACILITY 1: Indoor Basketball Court -->
+
+            <article id="basketball-court" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">BASKETBALL</span>
+                    <span class="detail-tag">INDOOR</span>
+                    <h2>Indoor Basketball Court</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 94 ft x 50 ft (Regulation Size)</span>
+                        <span>Capacity: Up to 200 Spectators</span>
+                        <span>Features: Sprung Wooden Flooring, Adjustable Hoops</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-basketball" name="slider-basketball" checked>
+                        <input type="radio" id="slide2-basketball" name="slider-basketball">
+                        <input type="radio" id="slide3-basketball" name="slider-basketball">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/basketball image.jpg" alt="Basketball Court Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/basketball image2.jpg" alt="Full Court Action">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/baketball image3.jpg" alt="Spectator View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-basketball" class="nav-dot active"></label>
+                            <label for="slide2-basketball" class="nav-dot"></label>
+                            <label for="slide3-basketball" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our state-of-the-art indoor basketball court features professional-grade sprung wooden flooring
+                        for optimal bounce and player safety. Perfect for leagues, tournaments, pickup games, and
+                        training sessions.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Four full-sized courts with NBA/FIBA-approved markings</li>
+                        <li>Electronic scoreboards and shot clocks</li>
+                        <li>High ceilings (35 ft) for unrestricted play</li>
+                        <li>Climate-controlled environment year-round</li>
+                    </ul>
+                    <p>Available for member reservations, youth programs, and corporate events. Professional coaching
+                        available upon request.</p>
+                    <p><strong>Booking opens 30 days in advance.</strong> Contact our front desk for availability and
+                        rates.</p>
+
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Book Court Now</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 6rem 0; border-width: 3px; border-radius: 5px;">
+            <!-- FACILITY 2: Volleyball Arena -->
+
+            <article id="volleyball-arena" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">VOLLEYBALL</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">ARENA</span>
+                    <h2>Indoor Volleyball Arena</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 60 ft x 30 ft per Court</span>
+                        <span>Capacity: Up to 150 Spectators</span>
+                        <span>Features: Synthetic Non-Slip Flooring, Adjustable Nets</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-volleyball" name="slider-volleyball" checked>
+                        <input type="radio" id="slide2-volleyball" name="slider-volleyball">
+                        <input type="radio" id="slide3-volleyball" name="slider-volleyball">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/volleyball arena.jpg" alt="Volleyball Arena View">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/volleyball arena2.jpg" alt="Match in Progress">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/volleyball arena3.jpg" alt="Net Setup Detail">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-volleyball" class="nav-dot active"></label>
+                            <label for="slide2-volleyball" class="nav-dot"></label>
+                            <label for="slide3-volleyball" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>The volleyball arena is equipped with specialized synthetic flooring designed for superior
+                        traction and shock absorption, ideal for competitive play and recreational games.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Two international-standard courts with FIVB-compliant lines</li>
+                        <li>Adjustable net heights for men's, women's, and youth divisions</li>
+                        <li>LED lighting for evening matches</li>
+                        <li>Integrated sound system for announcements</li>
+                    </ul>
+                    <p>Suitable for club leagues, tournaments, and skill-building clinics. Nets and balls provided for
+                        all sessions.</p>
+                    <p><strong>Hourly reservations available.</strong> Group rates for teams of 6 or more.</p>
+
+                    <a href="#reservation-form-modal" class="register-button">Reserve Arena</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- FACILITY 3: Badminton Hall -->
+
+            <article id="badminton-hall" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">BADMINTON</span>
+                    <span class="detail-tag">HALL</span>
+                    <h2>Indoor Badminton Hall</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 44 ft x 20 ft per Court</span>
+                        <span>Capacity: Up to 100 Spectators</span>
+                        <span>Features: Wooden Flooring, Retractable Nets</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-badminton" name="slider-badminton" checked>
+                        <input type="radio" id="slide2-badminton" name="slider-badminton">
+                        <input type="radio" id="slide3-badminton" name="slider-badminton">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/badminton1.jpg" alt="Badminton Hall Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/badminton2.jpg" alt="Rally in Action">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/badminton3.jpg" alt="Court Setup">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-badminton" class="nav-dot active"></label>
+                            <label for="slide2-badminton" class="nav-dot"></label>
+                            <label for="slide3-badminton" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our dedicated badminton hall offers six courts with smooth wooden flooring, providing the perfect
+                        surface for quick movements and precise shots in singles or doubles play.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Six courts with BWF-standard dimensions and markings</li>
+                        <li>Retractable nets and portable dividers for flexible setup</li>
+                        <li>High-intensity lighting to reduce shadows</li>
+                        <li>Shuttlecocks and rackets available for rent</li>
+                    </ul>
+                    <p>Ideal for casual games, club competitions, and training sessions. Beginner clinics offered
+                        weekly.</p>
+                    <p><strong>Book by the hour or court.</strong> Early morning slots available for serious players.
+                    </p>
+
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Book Court</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- FACILITY 4: Table Tennis Area -->
+
+            <article id="table-tennis" class="detail-article">
+                <div class="detail-header" style="border-left-color:var(--accent-blue) ;">
+                    <span class="detail-tag">TABLE TENNIS</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">RECREATIONAL</span>
+                    <h2>Indoor Table Tennis Area</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 9 ft x 5 ft per Table</span>
+                        <span>Capacity: Up to 50 Spectators</span>
+                        <span>Features: Professional Tables, Paddles & Balls Provided</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-tabletennis" name="slider-tabletennis" checked>
+                        <input type="radio" id="slide2-tabletennis" name="slider-tabletennis">
+                        <input type="radio" id="slide3-tabletennis" name="slider-tabletennis">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/table tennis1.jpg" alt="Table Tennis Area">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/table tennis2.jpg" alt="Intense Match">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/table tennis3.jpg" alt="Multiple Tables View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-tabletennis" class="nav-dot active"></label>
+                            <label for="slide2-tabletennis" class="nav-dot"></label>
+                            <label for="slide3-tabletennis" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>The table tennis area features eight high-quality tables in a dedicated space, perfect for
+                        friendly matches, tournaments, or skill practice in a relaxed setting.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Eight ITTF-approved tables with consistent bounce</li>
+                        <li>Free paddles and balls for members</li>
+                        <li>Sound-absorbing walls for focused play</li>
+                        <li>Beginner to advanced level accommodations</li>
+                    </ul>
+                    <p>Open for drop-in play or reserved sessions. Weekly tournaments held every Sunday evening.</p>
+                    <p><strong>No reservation fee for members.</strong> First-come, first-served during peak hours.</p>
+
+                    <a href="#reservation-form-modal" class="register-button">Reserve Table</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- SECTION:2   RECREATIONS -->
+            <div id="recreation" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Recreation & <span style="color: var(--accent-orange);">Wellness</span>
+                </h1>
+            </div>
+            <!-- Facility:1 Fitness Studio -->
+            <article id="fitness-studio" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">FITNESS</span>
+                    <span class="detail-tag">CLASS</span>
+                    <h2>State-of-the-Art Fitness Studio</h2>
+                    <div class="detail-meta">
+                        <span>Size: 10,000 sq ft (Two Floors)</span>
+                        <span>Equipment: 80+ Machines (Technogym)</span>
+                        <span>Access: 24/7 Member Access</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-fitness-studio" name="slider-fitness-studio" checked>
+                        <input type="radio" id="slide2-fitness-studio" name="slider-fitness-studio">
+                        <input type="radio" id="slide3-fitness-studio" name="slider-fitness-studio">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/fitness center.jpg" alt="Basketball Court Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/fitness center2.jpg" alt="Full Court Action">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/fitness center3.jpg" alt="Spectator View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-fitness-studio" class="nav-dot active"></label>
+                            <label for="slide2-fitness-studio" class="nav-dot"></label>
+                            <label for="slide3-fitness-studio" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our expansive fitness studio boasts the latest strength and cardio equipment across two dedicated
+                        levels. It is designed to cater to all fitness levels, from rehabilitation to elite training.
+                    </p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Modern strength and cardio equipment with integrated digital tracking</li>
+                        <li>Dedicated stretching zones with foam rollers and bands</li>
+                        <li>Spacious free weights area with squat racks and Olympic benches</li>
+                        <li>On-site personal trainers available for tailored programs</li>
+                    </ul>
+                    <p>Access is included with all club memberships. Orientation sessions are available for new members.
+                    </p>
+                    <p><strong>Private training sessions must be booked 48 hours in advance.</strong></p>
+
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Reserve Now</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 6rem 0; border-width: 3px; border-radius: 5px;">
+            <!-- FACILITY 2: -->
+            <article id="yoga-studio" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">WELLNESS</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">CLASS</span>
+                    <h2>Yoga & Pilates Studio</h2>
+                    <div class="detail-meta">
+                        <span>Size: 1,500 sq ft</span>
+                        <span>Classes: 30+ Weekly (Vinyasa, Hatha, Reformer)</span>
+                        <span>Features: Heated Floors, Aerial Rigs</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-yoga-studio" name="slider-yoga-studio" checked>
+                        <input type="radio" id="slide2-yoga-studio" name="slider-yoga-studio">
+                        <input type="radio" id="slide3-yoga-studio" name="slider-yoga-studio">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/yoga studio.jpg" alt="Volleyball Arena View">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/yoga studio2.jpg" alt="Match in Progress">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/yoga studio3.jpg" alt="Net Setup Detail">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-yoga-studio" class="nav-dot active"></label>
+                            <label for="slide2-yoga-studio" class="nav-dot"></label>
+                            <label for="slide3-yoga-studio" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Find your balance in our tranquil studio, dedicated to restorative and strengthening practices.
+                        We offer a variety of classes suitable for absolute beginners to advanced practitioners.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Specialized non-slip flooring optimized for barefoot exercise</li>
+                        <li>High-quality mats, blocks, straps, and reformer beds provided</li>
+                        <li>A roster of fully certified and experienced instructors</li>
+                        <li>Peaceful, low-light setting with ambient soundscapes</li>
+                    </ul>
+                    <p>Drop-in fees apply for non-members. Class packages and private sessions available.</p>
+                    <p><strong>Book your spot online as classes frequently fill up.</strong></p>
+
+                    <a href="schedules.html" class="register-button">View Class Schedule</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- FACILITY 3:  -->
+            <article id="squash" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">SQUASH</span>
+                    <span class="detail-tag">COURT</span>
+                    <h2>Professional Squash Courts</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 32 ft x 21 ft (Standard)</span>
+                        <span>Courts: 4 International-Standard Courts</span>
+                        <span>Features: Glass Back Walls, Climate Controlled</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-squash" name="slider-squash" checked>
+                        <input type="radio" id="slide2-squash" name="slider-squash">
+                        <input type="radio" id="slide3-squash" name="slider-squash">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/squash court.jpg" alt="Badminton Hall Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/squash court2.jpg" alt="Rally in Action">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/squash court3.jpg" alt="Court Setup">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-squash" class="nav-dot active"></label>
+                            <label for="slide2-squash" class="nav-dot"></label>
+                            <label for="slide3-squash" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our four squash courts are built to international specifications, featuring glass back walls for
+                        spectator viewing and a specialized playing surface for optimal grip and speed.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>High-quality maple flooring to minimize impact and maximize longevity</li>
+                        <li>Digital booking and check-in via the club app</li>
+                        <li>Racket and ball rentals available at the reception desk</li>
+                        <li>Monthly league play and competitive tournaments</li>
+                    </ul>
+                    <p>Courts can be reserved for singles or doubles play. Coaching clinics available for all skill
+                        levels.</p>
+                    <p><strong>Please wear non-marking shoes on court at all times.</strong></p>
+
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Book Court</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- FACILITY 4: -->
+            <article id="cycling-studio" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">CYCLING</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">STUDIO</span>
+                    <h2>Immersive Cycling Studio</h2>
+                    <div class="detail-meta">
+                        <span>Bikes: 50 High-End Stationary Cycles</span>
+                        <span>Sessions: Virtual & Live Instructor-Led</span>
+                        <span>Features: Immersive Video Wall, Integrated Metrics</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-cycling-studio" name="slider-cycling-studio" checked>
+                        <input type="radio" id="slide2-cycling-studio" name="slider-cycling-studio">
+                        <input type="radio" id="slide3-cycling-studio" name="slider-cycling-studio">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/cycling studio.jpg" alt="Table Tennis Area">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/cycling studio2.jpg.png" alt="Intense Match">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/cycling studio3.jpg.png" alt="Multiple Tables View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-cycling-studio" class="nav-dot active"></label>
+                            <label for="slide2-cycling-studio" class="nav-dot"></label>
+                            <label for="slide3-cycling-studio" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Experience high-energy workouts in our immersive cycling studio. Our high-end bikes track
+                        real-time performance metrics displayed on a large screen, driving motivation and friendly
+                        competition.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>State-of-the-art cycles with clip-in pedals (SPD compatible)</li>
+                        <li>High-definition video wall providing scenic virtual rides</li>
+                        <li>Powerful surround sound system for motivating music</li>
+                        <li>Themed ride events and challenges held weekly</li>
+                    </ul>
+                    <p>All group cycling classes are included in the premium membership tier. Individual virtual rides
+                        are available at all times.</p>
+                    <p><strong>Arrive 15 minutes early for bike setup and adjustment.</strong></p>
+
+                    <a href="#reservation-form-modal" class="register-button">Book Class</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- ----------------------
+                SECTION 3 OUTDOOR SPORTS
+               -------------------------- -->
+            <!---------------------
+             Facility 1
+        ------------------------- -->
+            <div id="outdoor-sports" class="detail-article" style="margin-top: 6rem;">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-blue); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Outdoor <span style="color: var(--accent-blue);">Sports & Facilities</span>
+                </h1>
+            </div>
+            <article id="olympic-pool" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">AQUATICS</span>
+                    <span class="detail-tag">POOL</span>
+                    <h2>Outdoor Olympic Sized Pool</h2>
+                    <div class="detail-meta">
+                        <span>Dimensions: 50m x 25m (Olympic Standard)</span>
+                        <span>Lanes: 10 Competitive Lanes</span>
+                        <span>Features: Diving Blocks, Temperature Control</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-olympic-pool" name="slider-olympic-pool" checked>
+                        <input type="radio" id="slide2-olympic-pool" name="slider-olympic-pool">
+                        <input type="radio" id="slide3-olympic-pool" name="slider-olympic-pool">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/olympic pool.jpg" alt="Olympic Pool Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/olympic pool2.jpg" alt="Swimmers in Lanes">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/olympic pool3.jpg" alt="Diving Blocks View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-olympic-pool" class="nav-dot active"></label>
+                            <label for="slide2-olympic-pool" class="nav-dot"></label>
+                            <label for="slide3-olympic-pool" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Dive into world-class swimming at our 50-meter Olympic pool. Perfect for competitive training,
+                        lap swimming, and water polo, the pool is temperature-controlled for comfortable year-round use.
+                    </p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Official FINA depth and lane width specifications</li>
+                        <li>Dedicated lanes for open lap swimming during peak hours</li>
+                        <li>UV filtration system for superior water quality</li>
+                        <li>Certified lifeguards on duty during all operational hours</li>
+                    </ul>
+                    <p>Access is restricted during scheduled team practices. Please check the daily timetable.</p>
+                    <p><strong>Private coaching available upon request.</strong></p>
+                    <a href="schedules.html" class="register-button" style="background-color: var(--accent-blue);">View
+                        Timetable</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- Facility 2 -->
+            <article id="fifa-field" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">SOCCER</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">FIELD</span>
+                    <h2>FIFA Regulation Football Field</h2>
+                    <div class="detail-meta">
+                        <span>Size: 105m x 68m (FIFA Standard)</span>
+                        <span>Surface: Premium Artificial Turf</span>
+                        <span>Capacity: 500 Spectators</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-fifa-field" name="slider-fifa-field" checked>
+                        <input type="radio" id="slide2-fifa-field" name="slider-fifa-field">
+                        <input type="radio" id="slide3-fifa-field" name="slider-fifa-field">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/soccer field.jpg" alt="Football Field Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/soccer field2.jpg" alt="Game in Progress">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/soccer field3.jpg" alt="Corner View">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-fifa-field" class="nav-dot active"></label>
+                            <label for="slide2-fifa-field" class="nav-dot"></label>
+                            <label for="slide3-fifa-field" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our stunning outdoor field meets the highest international standards for competitive play. The
+                        artificial turf provides excellent shock absorption and consistent ball roll in all weather
+                        conditions.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Professional floodlighting for evening use</li>
+                        <li>Electronic scoreboard and sideline seating</li>
+                        <li>Goals and corner flags provided</li>
+                        <li>Available for large team rentals and club leagues</li>
+                    </ul>
+                    <p>The field must be booked in advance. Casual drop-in use is subject to availability.</p>
+                    <p><strong>Only turf shoes or flat trainers permitted. No cleats.</strong></p>
+                    <a href="#reservation-form-modal" class="register-button">Reserve Field</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- Facility 3 -->
+            <article id="athletics-track" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">TRACK</span>
+                    <span class="detail-tag">ATHLETICS</span>
+                    <h2>Certified Athletics Track</h2>
+                    <div class="detail-meta">
+                        <span>Length: 400m (Standard)</span>
+                        <span>Lanes: 8 All-Weather Lanes</span>
+                        <span>Features: Steeplechase Water Jump, Field Event Zones</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-athletics-track" name="slider-athletics-track" checked>
+                        <input type="radio" id="slide2-athletics-track" name="slider-athletics-track">
+                        <input type="radio" id="slide3-athletics-track" name="slider-athletics-track">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/athletics track.jpg" alt="Track Overview">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/athletics track2.jpg" alt="Runners on Track">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/athletics track3.jpg" alt="Field Event Area">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-athletics-track" class="nav-dot active"></label>
+                            <label for="slide2-athletics-track" class="nav-dot"></label>
+                            <label for="slide3-athletics-track" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our professional-grade track and field area is open for individual running, club meets, and
+                        training for specialized field events like javelin, shot put, and long jump.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Rubberized, non-slip running surface</li>
+                        <li>Dedicated coaching areas for form analysis</li>
+                        <li>Access to hurdles, blocks, and timing equipment</li>
+                        <li>Inner lanes (1-3) reserved for speed work during peak hours</li>
+                    </ul>
+                    <p>The track is typically available during all club operating hours, unless a major event is
+                        scheduled.</p>
+                    <p><strong>Please run counter-clockwise on the track.</strong></p>
+                    <a href="events.html#upcoming-events" class="register-button"
+                        style="background-color: var(--accent-blue);">View Event Calendar</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- Facility 3 -->
+            <article id="hard-courts" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">HARD</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">COURT</span>
+                    <h2>Outdoor Tennis & Basketball Hard Courts</h2>
+                    <div class="detail-meta">
+                        <span>Courts: 6 Tennis, 2 Full Basketball</span>
+                        <span>Surface: Acrylic Hard Court</span>
+                        <span>Features: Professional Nets, Night Lighting</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="css-slider">
+                        <input type="radio" id="slide1-hard-courts" name="slider-hard-courts" checked>
+                        <input type="radio" id="slide2-hard-courts" name="slider-hard-courts">
+                        <input type="radio" id="slide3-hard-courts" name="slider-hard-courts">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="assets/images/tennis court.jpg" alt="Tennis Courts View">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/hard courts2.jpg" alt="Basketball Court">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/hard courts3.jpg" alt="Courts at Night">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="slide1-hard-courts" class="nav-dot active"></label>
+                            <label for="slide2-hard-courts" class="nav-dot"></label>
+                            <label for="slide3-hard-courts" class="nav-dot"></label>
+                        </div>
+                    </div>
+                    <p>Our flexible hard court area provides a high-quality surface for tennis and basketball. The
+                        smooth, fast surface is excellent for competitive play, and the courts are illuminated for
+                        evening use.</p>
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>High-quality nets and adjustable basketball hoops</li>
+                        <li>Windscreen barriers to minimize environmental impact</li>
+                        <li>Benches and drinking fountains provided courtside</li>
+                        <li>Group lessons and competitive ladder play available weekly</li>
+                    </ul>
+                    <p>Courts must be booked online. Please cancel if you cannot attend to free up the slot for other
+                        members.</p>
+                    <p><strong>Court time limits apply during peak hours.</strong></p>
+                    <a href="#reservation-form-modal" class="register-button">Reserve Court</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 6rem 0; border-width: 3px; border-radius: 5px;">
+            <!-- SECTION 4: NEWS & ARTICLES -->
+            <div id="latest-news" class="detail-article" style="margin-top: 6rem;">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Latest <span style="color: var(--accent-orange);">News & Articles</span>
+                </h1>
+            </div>
+            <!-- NEWS 1: Announcement - New Cardio Machines -->
+            <article id="news-gym-upgrade" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">ANNOUNCEMENT</span>
+                    <span class="detail-tag">GYM</span>
+                    <h2>Major Gym Upgrade: New State-of-the-Art Cardio Machines Arrive</h2>
+                    <div class="detail-meta">
+                        <span>Published: October 5, 2025</span>
+                        <span>Author: Facilities Management</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"><img src="assets/images/cardio machine.jpg" width="100%"
+                            height="100%" alt=""></div>
+                    <p>We are excited to announce a significant upgrade to our Fitness Studio! We have completed the
+                        installation
+                        of **20 brand-new, top-of-the-line cardio machines**, replacing our entire fleet of treadmills,
+                        ellipticals,
+                        and spin bikes.</p>
+                    <h3>Key Features of the New Equipment:</h3>
+                    <ul>
+                        <li><strong>HD Interactive Screens:</strong> Integrated training programs and virtual scenic
+                            routes.</li>
+                        <li><strong>Enhanced Metrics:</strong> Real-time heart rate, pace, power, and detailed
+                            performance tracking.</li>
+                        <li><strong>Ergonomic Design:</strong> Improved cushioning and reduced joint impact for safer,
+                            longer workouts.</li>
+                        <li><strong>Phone Synchronization:</strong> Sync your workout data directly to your favorite
+                            fitness apps.</li>
+                    </ul>
+                    <p>A club instructor will be on hand this week during peak hours (5 PM - 8 PM) to provide
+                        demonstrations
+                        and answer any questions you may have about the new features. We appreciate your patience during
+                        the
+                        installation process and look forward to seeing you enjoy the new gear!</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- NEWS 2: Profile - Meet Emily F. -->
+            <article id="news-emily-f" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag" style="background-color: var(--accent-blue);">PROFILE</span>
+                    <h2>From Beginner to Champion: Meet Member Emily F.</h2>
+                    <div class="detail-meta">
+                        <span>Published: September 28, 2025</span>
+                        <span>Author: Community Editor</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder" style="border-color: var(--accent-orange);"><img
+                            src="assets/images/member success.jpg" width="100%" height="100%" alt=""></div>
+                    <p>Every member has a unique fitness journey, and this month, we celebrate **Emily F.**, who joined
+                        the club
+                        just two years ago as a swimming novice and recently won the regional 50m freestyle
+                        championship!</p>
+                    <p>Emily's dedication, combined with expert coaching from our Aquatics team, led to her incredible
+                        transformation.
+                        She utilized our **Olympic Pool Lane** for early morning practice five days a week and relied
+                        heavily on the
+                        Recovery Center for managing her heavy training load.</p>
+                    <h3>Emily's Training Secrets:</h3>
+                    <ul>
+                        <li><strong>Goal Setting:</strong> Consistent, measurable daily goals set with her coach.</li>
+                        <li><strong>Variety:</strong> Incorporating **Yoga Class** sessions to improve flexibility and
+                            core strength.</li>
+                        <li><strong>Discipline:</strong> Never missing a scheduled swim or strength training session.
+                        </li>
+                    </ul>
+                    <p>Emily proves that commitment and utilizing the club's resources can lead to extraordinary
+                        results.
+                        Congratulations, Emily, on your amazing success!</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- NEWS 3: Facility - Indoor Arena Maintenance -->
+            <article id="news-arena-maintenance" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">FACILITY</span>
+                    <span class="detail-tag">SCHEDULE</span>
+                    <h2>Indoor Arena Maintenance Schedule: Limited Access Notice</h2>
+                    <div class="detail-meta">
+                        <span>Published: September 20, 2025</span>
+                        <span>Author: Operations Team</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"><img src="assets/images/indoor maintenance.jpg" width="100%"
+                            height="100%" alt=""></div>
+                    <p>To ensure the continued quality and safety of our main facilities, we have scheduled essential
+                        deep cleaning
+                        and resurfacing maintenance for the **Indoor Arena**. This will affect access to the Basketball
+                        and Volleyball
+                        courts during the specified dates.</p>
+                    <h3>Maintenance & Closure Details:</h3>
+                    <ul>
+                        <li><strong>Dates:</strong> November 10th - November 12th (3 Days Total)</li>
+                        <li><strong>Affected Areas:</strong> All indoor court space (Basketball Courts 1-4, Volleyball
+                            Arena).</li>
+                        <li><strong>Work:</strong> Floor sanding, protective sealant application, line repainting.</li>
+                    </ul>
+                    <p>The arena will be completely inaccessible during these 72 hours to allow the sealant to cure
+                        properly.
+                        The **Futsal Field Court** and **Athletics Track** will remain open during this time. We
+                        apologize for any
+                        inconvenience and thank you for helping us keep our facilities world-class.</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- SECTION 5: LATEST EVENTS -->
+            <div id="latest-events" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Latest <span style="color: var(--accent-orange);">Events & News</span>
+                </h1>
+            </div>
+            <!-- EVENT 1: Youth Sports Camp -->
+            <article id="event-camp" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">YOUTH</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">CAMP</span>
+                    <h2>Summer Kick-off Youth Sports Camp Enrollment Open</h2>
+                    <div class="detail-meta">
+                        <span>Dates: June 15 - August 15, 2026 (Weekly Sessions)</span>
+                        <span>Time: 9:00 AM - 4:00 PM Daily</span>
+                        <span>Location: Various Club Facilities</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder" style="border-color: var(--accent-orange);"><img
+                            src="assets/images/youth camp.jpg" width="100%" height="100%" alt=""></div>
+                    <p>Get ready for summer! The <strong>Ryan Club Youth Sports Camp</strong> is back for another
+                        exciting year, offering full-day, multi-sport training for children aged 6 to 14. We focus on
+                        fun, fitness, and fundamental skill development across several sports.</p>
+                    <h3>Featured Sports & Activities:</h3>
+                    <ul>
+                        <li><strong>Weeks 1-4:</strong> Soccer and Swimming Fundamentals</li>
+                        <li><strong>Weeks 5-8:</strong> Basketball, Volleyball, and Track & Field</li>
+                        <li><strong>All Weeks:</strong> General fitness, team-building exercises, and healthy snack
+                            demonstrations.</li>
+                    </ul>
+                    <p>Our experienced and certified coaches ensure a safe and supportive environment for every child.
+                        Campers are grouped by age and skill level for optimal learning and enjoyment.</p>
+                    <p><strong>Early Bird Registration Discount</strong> is available until May 1st, 2026! Full details,
+                        pricing, and registration links can be found on our main Camps page.</p>
+
+                    <a href="#reservation-form-modal" class="register-button">Enroll Your Child</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1);; margin: 6rem 0;">
+            <!-- EVENT 2: Youth Basketball Clinic -->
+            <article id="event-clinic" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">EVENT</span>
+                    <h2>Youth Basketball Clinic: Fundamentals Camp</h2>
+                    <div class="detail-meta">
+                        <span>Date: Saturday, October 19th</span>
+                        <span>Time: 9:00 AM - 3:00 PM</span>
+                        <span>Location: Indoor Arena Courts 1-2</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"><img src="assets/images/youth basketball.jpg" width="100%"
+                            height="100%" alt=""></div>
+                    <p>Our popular Youth Basketball Clinic returns! Designed for players aged 8 to 14, this all-day camp
+                        focuses on building a solid foundation in core basketball skills.</p>
+                    <h3>What Kids Will Learn:</h3>
+                    <ul>
+                        <li>Proper shooting form and technique.</li>
+                        <li>Defensive footwork and positioning drills.</li>
+                        <li>Ball handling and court awareness games.</li>
+                        <li>Teamwork and sportsmanship.</li>
+                    </ul>
+                    <p>Registration includes lunch and a Ryan Club t-shirt. Spots are limited to ensure personalized
+                        coaching attention. **Sign up through the member portal before October 15th!**</p>
+                    <p style="font-style: italic; color: var(--accent-orange);">Cost: $75 per participant.</p>
+
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Reserve A Spot</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- EVENT 3: Community Triathlon-->
+            <article id="event-triathlon" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">COMMUNITY</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">EVENT</span>
+                    <h2>Annual Community Triathlon Challenge</h2>
+                    <div class="detail-meta">
+                        <span>Date: Sunday, October 20, 2025</span>
+                        <span>Time: 7:00 AM Start</span>
+                        <span>Location: Olympic Pool & Outdoor Track</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"
+                        style="color: var(--accent-blue); border: 2px dashed var(--accent-orange);"><img
+                            src="assets/images/olympic pool2.jpg" width="100%" height="100%" alt=""></div>
+                    <p>Our most anticipated community event, the <strong>Annual Triathlon Challenge</strong>, is
+                        happening this Sunday! Whether you're a seasoned triathlete or tackling your first multi-sport
+                        event, this is a fun and supportive challenge for everyone. We offer both individual and team
+                        relay options.</p>
+                    <h3>Race Format and Distances:</h3>
+                    <ul>
+                        <li><strong>Swim:</strong> 400m (Olympic Pool)</li>
+                        <li><strong>Bike:</strong> 15km (Club Perimeter Route)</li>
+                        <li><strong>Run:</strong> 5km (Outdoor Track & Trails)</li>
+                    </ul>
+                    <p>All participants must check in between 6:00 AM and 6:30 AM. Complimentary breakfast burritos and
+                        coffee will be available for participants and spectators post-race. Medals will be awarded for
+                        top finishers in each age group and the fastest relay team.</p>
+                    <p><strong>Registration closes Friday at 6:00 PM!</strong> Secure your spot and challenge yourself
+                        this weekend.</p>
+                    <a href="#reservation-form-modal" class="register-button">Register Now</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- EVENT 4: Spin Class Marathon for Charity -->
+            <article id="event-spin-marathon" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">CHARITY</span>
+                    <span class="detail-tag">FITNESS</span>
+                    <h2>6-Hour Spin Class Marathon for Local Charities</h2>
+                    <div class="detail-meta">
+                        <span>Date: Saturday, November 5, 2025</span>
+                        <span>Time: 10:00 AM - 4:00 PM</span>
+                        <span>Location: Indoor Cycling Studio</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"><img src="assets/images/cycling.jpeg" width="100%"
+                            height="100%" alt=""></div>
+                    <p>Pedal for a purpose! Join us for an exhilarating **6-Hour Spin Class Marathon** to raise funds
+                        for the local children's hospital. This is a powerful, high-energy event for a great cause,
+                        featuring six different club instructors, theme rides, and prizes!</p>
+                    <h3>How to Participate:</h3>
+                    <ul>
+                        <li><strong>Individual Challenge:</strong> Ride all six hours! (Pre-registration is required,
+                            includes hydration support.)</li>
+                        <li><strong>Team Relay:</strong> Form a team of 2-6 people and take shifts riding one-hour
+                            segments.</li>
+                        <li><strong>Single Session Drop-in:</strong> Join any single hour for a suggested minimum
+                            donation of **$20**.</li>
+                    </ul>
+                    <p>We'll have snacks, music, and an incredible atmosphere. Every dollar raised goes directly to
+                        providing essential supplies and resources for local children.</p>
+                    <p>Secure your bike for the full marathon or a relay spot today!</p>
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Book Your Bike & Donate</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- SECTION 6: YEARLY ACTIVITIES CALENDAR & DETAILS -->
+            <div id="yearly-activities" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Yearly Activities <span style="color: var(--accent-blue);">Calendar</span>
+                </h1>
+            </div>
+            <!-- Yearly Activity Calendar  -->
+            <div style="max-width: 800px; margin: 0 auto 4rem;">
+                <div class="calendar-list-item">
+                    <div class="calendar-list-item-header">
+                        <h3>Annual Swimming Gala</h3>
+                        <p class="calendar-list-item-date">January 15 - 20</p>
+                    </div>
+                    <p>The premier swimming competition for members of all ages.</p>
+                    <a href="#gala_detail" class="calendar-list-link">View details &rarr;</a>
+                </div>
+                <div class="calendar-list-item">
+                    <div class="calendar-list-item-header">
+                        <h3>Inter-Club Football League</h3>
+                        <p class="calendar-list-item-date">May - August (Weekly)</p>
+                    </div>
+                    <p>A competitive, long-running league for adult teams.</p>
+                    <a href="#football_detail" class="calendar-list-link">View details &rarr;</a>
+                </div>
+                <div class="calendar-list-item">
+                    <div class="calendar-list-item-header">
+                        <h3>Junior Athletics Meet</h3>
+                        <p class="calendar-list-item-date">September 10</p>
+                    </div>
+                    <p>Celebrating young talent in track and field events for children aged 6-14.</p>
+                    <a href="#athletics_detail" class="calendar-list-link">View details &rarr;</a>
+                </div>
+                <div class="calendar-list-item">
+                    <div class="calendar-list-item-header">
+                        <h3>Health & Wellness Workshops</h3>
+                        <p class="calendar-list-item-date">Monthly (Rotating Topics)</p>
+                    </div>
+                    <p>Expert-led sessions focusing on nutrition, psychology, and recovery.</p>
+                    <a href="#wellness_detail" class="calendar-list-link">View details &rarr;</a>
+                </div>
+                <div class="calendar-list-item">
+                    <div class="calendar-list-item-header">
+                        <h3>Members' Social Evenings</h3>
+                        <p class="calendar-list-item-date">First Friday of Every Month</p>
+                    </div>
+                    <p>A casual event for all club members to connect and network.</p>
+                    <a href="#social_detail" class="calendar-list-link">View details &rarr;</a>
+                </div>
+            </div>
+            <!-- Activity Details -->
+            <h2
+                style="font-size: 2rem; font-weight: 700; color: var(--accent-orange); margin-top: 4rem; margin-bottom: 2rem;">
+                Activity Details</h2>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
+            <!-- DETAIL 1: Annual Swimming Gala -->
+            <article id="gala_detail" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-orange);">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">COMPETITION</span>
+                    <span class="detail-tag">ANNUAL</span>
+                    <h2>Annual Swimming Gala</h2>
+                    <div class="detail-meta">
+                        <span>Date: January 15 - 20</span>
+                        <span>Time: 5:00 PM onwards daily</span>
+                        <span>Location: 50-meter Olympic Pool</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <p>The highly anticipated club championship featuring competitive heats for freestyle, butterfly,
+                        backstroke, and medley events. Trophies and medals are awarded on the final day.</p>
+                    <p>Open to all registered club members. <strong>Registration opens in November.</strong> Prepare to
+                        challenge your personal best in a highly supportive, yet competitive, environment.</p>
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Register Interest</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- DETAIL 2: Inter-Club Football League -->
+            <article id="football_detail" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">LEAGUE</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">ADULT</span>
+                    <h2>Inter-Club Football League</h2>
+                    <div class="detail-meta">
+                        <span>Date: May through August</span>
+                        <span>Time: Saturday Afternoons</span>
+                        <span>Location: FIFA-Regulation Outdoor Soccer Field</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <p>A round-robin tournament designed to foster competitive spirit and community engagement. Teams
+                        are formed at the start of the season through a draft. Spectators are welcome!</p>
+                    <p>Requires a separate league registration fee. Please contact the Sports Director for team
+                        placement and rule details before the <strong>April 15th deadline.</strong></p>
+                    <a href="#reservation-form-modal" class="register-button">Join League</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- DETAIL 3: Junior Athletics Meet -->
+            <article id="athletics_detail" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-orange);">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">YOUTH</span>
+                    <span class="detail-tag">TRACK & FIELD</span>
+                    <h2>Junior Athletics Meet</h2>
+                    <div class="detail-meta">
+                        <span>Date: September 10</span>
+                        <span>Time: 9:00 AM - 1:00 PM</span>
+                        <span>Location: Outdoor Running Track</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <p>An annual tradition encouraging youth participation in various track and field events like the
+                        100-meter dash, long jump, and relay races for children aged <strong>6-14</strong>.</p>
+                    <p>Parental supervision is required. Registration details and age-specific event schedules are
+                        released in August.</p>
+                    <a href="#reservation-form-modal" class="register-button"
+                        style="background-color: var(--accent-blue);">Sign Up Child</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- DETAIL 4: Health & Wellness Workshops -->
+            <article id="wellness_detail" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">WELLNESS</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">MONTHLY</span>
+                    <h2>Health & Wellness Workshops</h2>
+                    <div class="detail-meta">
+                        <span>Date: Ongoing, various dates</span>
+                        <span>Time: Check monthly club newsletter</span>
+                        <span>Location: Wellness Center Studio 1</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <p>Expert-led sessions focusing on holistic health, these sessions cover a wide range of topics,
+                        including <strong>Mindful Eating for Athletes</strong>, <strong>The Science of Sleep</strong>,
+                        and <strong>Dynamic Stretching</strong>.</p>
+                    <p>Workshops are free for premium members and include a small fee for standard members.
+                        Pre-registration for each monthly session is highly recommended due to limited seating.</p>
+                    <a href="schedules.html" class="register-button">View Schedule</a>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- DETAIL 5: Members' Social Evenings -->
+            <article id="social_detail" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-orange);">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">SOCIAL</span>
+                    <span class="detail-tag">COMMUNITY</span>
+                    <h2>Members' Social Evenings</h2>
+                    <div class="detail-meta">
+                        <span>Date: First Friday of Every Month</span>
+                        <span>Time: 7:00 PM - 9:00 PM</span>
+                        <span>Location: Club Lounge & Terrace</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <p>A relaxing evening to build community outside of competition. Complimentary light appetizers and
+                        non-alcoholic beverages are served.</p>
+                    <p>This is a great opportunity to meet fellow club members and staff. No reservation required—just
+                        show your membership card at the door!</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- SECTION 7: FEATURED ATHLETES PROFILES DETAILS -->
+            <div id="athlete-profile" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Athletes <span style="color: var(--accent-orange);">Profile</span>
+                </h1>
+            </div>
+            <!-- ATHLETE PROFILE 1: Sarah J. (Moved and updated) -->
+            <article id="profile-sarah-j" class="detail-article">
+                <div class="detail-header" style="border-left-color: var(--accent-blue);">
+                    <span class="detail-tag">SWIMMING</span>
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">CHAMPION</span>
+                    <h2>From Beginner to Champion: Meet Sarah J.</h2>
+                    <div class="detail-meta">
+                        <span>Published: September 25, 2025</span>
+                        <span>Discipline: Competitive Swimming</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder" style=" border: 2px dashed var(--accent-orange);"><img
+                            src="assets/images/athlete2.jpg" width="100%" height="100%" alt=""></div>
+                    <p>Every athlete's journey begins somewhere. For Sarah J., that starting line was the Ryan Club's
+                        beginner swimming program just two years ago. Today, she is celebrating her **first regional
+                        competition medal** in the 50-meter freestyle.</p>
+                    <h3>Dedication and Training</h3>
+                    <p>Sarah credits her success to the rigorous training schedule and the support of Coach Liam and her
+                        fellow swimmers. "The early morning practices were tough, but the sense of community kept me
+                        coming back," she says. Her story is an inspiration to all our members, proving that dedication
+                        truly pays off. She is currently training for the upcoming National Trials.</p>
+                    <p>We encourage all interested members to check out our competitive swim team options. Whether
+                        you're aiming for a medal or just better technique, we have a lane for you.</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- ATHLETE PROFILE 2: David T. (New Profile) -->
+            <article id="profile-david-t" class="detail-article">
+                <div class="detail-header">
+                    <span class="detail-tag" style="background-color: var(--accent-orange);">BASKETBALL</span>
+                    <span class="detail-tag">MVP</span>
+                    <h2>Slam Dunk Success: Introducing Youth Star David T.</h2>
+                    <div class="detail-meta">
+                        <span>Published: October 5, 2025</span>
+                        <span>Discipline: Basketball</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image-placeholder"
+                        style="color: var(--accent-orange); border: 2px dashed var(--accent-blue);"><img
+                            src="assets/images/athlete2 detail (2).jpg" width="100%" height="100%" alt=""></div>
+                    <p>David T. has quickly become a standout member of the Ryan Club's youth basketball league. At only
+                        16, he led his team, the **Ryan Raptors**, to an undefeated season and secured the league MVP
+                        title.</p>
+                    <h3>Commitment to Teamwork</h3>
+                    <p>David is known not just for his incredible scoring ability, but for his dedication to teamwork
+                        and sportsmanship. "The club coaches helped me understand that basketball is more than just
+                        points—it's about supporting everyone on the court," David explains. He trains five days a week
+                        and mentors younger players during weekend clinics.</p>
+                    <p>His coaches are projecting a bright future, potentially collegiate play, provided he maintains
+                        his academic and athletic focus. We are proud to support David's journey!</p>
+                </div>
+            </article>
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 4rem 0;">
+            <!-- SECTION 8: CLUB TEAM MEMBERS & STAFF -->
+            <div id="team-members" class="detail-article">
+                <h1
+                    style="font-size: 3rem; font-weight: 800; color: var(--text-light); border-bottom: 2px solid var(--accent-orange); padding-bottom: 1rem; margin-bottom: 3rem;">
+                    Meet <span style="color: var(--accent-blue);">Our Team</span>
+                </h1>
+            </div>
+            <div class="details-team-grid">
+                <!-- Team Member 1: Emily Carter (Club Director) -->
+                <div class="team-member-card">
+                    <div class="member-image-placeholder"><img src="assets/images/gm.jpg" width="100%" height="100%"
+                            alt=""></div>
+                    <h3 class="member-name">Emily Carter</h3>
+                    <p class="member-title">Club Director & Operations Lead</p>
+                    <p class="member-description">Emily oversees all facility operations, ensuring Ryan Club maintains
+                        its high standards for membership experience and service quality.</p>
+                </div>
+                <!-- Team Member 2: Liam (Head Swim Coach) - Referenced in Athlete Profile -->
+                <div class="team-member-card">
+                    <div class="member-image-placeholder"><img style="border-color: var(--accent-blue);"
+                            src="assets/images/ceo.jpg" width="100%" height="100%" alt=""></div>
+                    <h3 class="member-name">Liam D.</h3>
+                    <p class="member-title">Head Coach, Competitive Swimming</p>
+                    <p class="member-description">Coach Liam leads our nationally recognized swim program, focusing on
+                        advanced technique, discipline, and athlete development.</p>
+                </div>
+                <!-- Team Member 3: Dr. Anya Sharma (Wellness) -->
+                <div class="team-member-card">
+                    <div class="member-image-placeholder"><img src="assets/images/dr.jpg" width="100%" height="100%"
+                            alt=""></div>
+                    <h3 class="member-name">Dr. Anya Sharma</h3>
+                    <p class="member-title">In-House Sports Physiotherapist</p>
+                    <p class="member-description">Anya provides injury prevention consultation and rehabilitation
+                        support to all our athletes, ensuring peak performance and quick recovery.</p>
+                </div>
+                <!-- Team Member 4: Marcus Johnson (Fitness) -->
+                <div class="team-member-card">
+                    <div class="member-image-placeholder"><img style="border-color: var(--accent-blue);"
+                            src="assets/images/aw.jpg" width="100%" height="100%" alt=""></div>
+                    <h3 class="member-name">Marcus 'The Rock' Johnson</h3>
+                    <p class="member-title">Lead Fitness Instructor & PT</p>
+                    <p class="member-description">Marcus manages the fitness floor and personal training services. He
+                        specializes in strength building and functional movement for all ages.</p>
+                </div>
+            </div>
+            <hr style="border-color: var(--accent-orange);margin: 4rem 0;">
+        </div>
+    </section>
+    </div>
+    </section>
+    <footer class="main-footer" style="background-color: var(--primary-dark);">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+    <!-- booking form -->
+    <div id="reservation-form-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <a href="#" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Facility Reservation Request</h3>
+                <p class="modal-description" style="text-align: center;">
+                    Please fill out the form below to request a booking. A member of our team will confirm your
+                    reservation within 24 hours.
+                </p>
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="facility">Select Facility/Service to Book</label>
+                        <select id="facility" name="facility" required>
+                            <option value="" disabled selected>--- Choose a Facility or Service ---</option>
+                            <option value="club-tour">Club Tour (Free)</option>
+                            <option value="basketball-courts">Basketball Courts (Court Booking)</option>
+                            <option value="volleyball-arena">Volleyball Arena (Court Booking)</option>
+                            <option value="futsal-field">Futsal Field Court</option>
+                            <option value="olympic-pool-lane">Olympic Pool (Lane Booking)</option>
+                            <option value="fifa-regulation-field">FIFA Regulation Field</option>
+                            <option value="athletics-track">Athletics Track (Session Booking)</option>
+                            <option value="fitness-studio-class">Fitness Studio (Class Booking)</option>
+                            <option value="yoga-class">Yoga Class</option>
+                            <option value="recovery-center-service">Recovery Center Service (e.g., Cryo)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferredDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time Slot</label>
+                        <input type="time" id="time" name="preferredTime" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="duration">Approximate Duration (Hours)</label>
+                        <input type="number" id="duration" name="duration" min="0.5" step="0.5" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="attendees">Number of Attendees</label>
+                        <input type="number" id="attendees" name="attendees" min="1" value="1" required>
+                    </div>
+                    <div class="modal-cta form-submit-btn">
+                        <button type="submit" class="primary-btn btn"
+                            style="border-radius: 0.5rem; padding: 1rem 2rem;">
+                            SUBMIT RESERVATION
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

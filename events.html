@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - News & Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li class="active"><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="section-header" style="padding: 6rem;">
+        <div class="hero-background-image">
+            <img src="assets/images/herobg.jpg" alt="">
+        </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h1 style="font-size: 3rem;">
+                Stay Up-to-Date. <span style="color: var(--accent-orange);">Get Connected.</span>
+            </h1>
+            <p class="membership-section-subtitle">
+                The latest announcements, featured stories, and a calendar of upcoming club activities and competitions.
+            </p>
+        </div>
+    </header>
+    <!-- News Section -->
+
+    <section id="latest-news" class="news-section" >
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h2 class="events-title"
+                style="color: var(--accent-orange); border-bottom: 2px solid rgba(255, 255, 255, 0.2); padding-bottom: 0.5rem; margin-bottom: 3rem;">
+                Featured News & Articles
+            </h2>
+
+            <div class="news-grid">
+
+                <a href="details.html#news-gym-upgrade" class="news-card">
+                    <div class="news-image-placeholder"><img src="assets/images/cardio machine.jpg" height="100%"
+                            width="100%" alt=""></div>
+                    <div class="news-content">
+                        <span class="news-tag">ANNOUNCEMENT</span>
+                        <h4>Gym Upgrade: New Cardio Machines Arrive!</h4>
+                        <p>We've completed the installation of 15 new high-end treadmills and ellipticals across both
+                            fitness floors.</p>
+                        <div class="news-meta">Published: October 1, 2025 | By Admin</div>
+                    </div>
+                </a>
+
+                <a href="details.html#news-emily-f" class="news-card"
+                    style="border-bottom: 4px solid var(--accent-blue);">
+                    <div class="news-image-placeholder"
+                        style="color: var(--accent-blue); border-bottom: 1px solid rgba(76, 120, 255, 0.3);"><img
+                            src="assets/images/member success.jpg" height="100%" width="100%" alt=""></div>
+                    <div class="news-content">
+                        <span class="news-tag" style="background-color: var(--accent-orange);">PROFILE</span>
+                        <h4>From Beginner to Champion: Meet Emily F.</h4>
+                        <p>Sarah details her journey through the Ryan Club swim program and how she achieved her first
+                            competition medal.</p>
+                        <div class="news-meta">Published: September 25, 2025 | By Club Editor</div>
+                    </div>
+                </a>
+
+                <a href="details.html#news-arena-maintenance" class="news-card">
+                    <div class="news-image-placeholder"><img src="assets/images/indoor maintenance.jpg" height="100%"
+                            width="100%" alt=""></div>
+                    <div class="news-content">
+                        <span class="news-tag">FACILITY</span>
+                        <h4>Indoor Arena Maintenance Schedule</h4>
+                        <p>The basketball courts will be resurfaced the week of Nov 1st. Please check the booking portal
+                            for alternative times.</p>
+                        <div class="news-meta">Published: September 15, 2025 | By Operations</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Events Timeline -->
+    <section id="upcoming-events" class="events-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h2 class="events-title">
+                Upcoming Club Events
+            </h2>
+
+
+            <div class="events-timeline">
+
+                <div class="events-timeline-item">
+                    <div class="events-timeline-dot"></div>
+                    <div class="events-timeline-date">June 15th - August 15th</div>
+                    <div class="events-timeline-content">
+                        <div class="events-card">
+                            <a href="details.html#event-camp">
+                                <h4>Youth Sports Camp</h4>
+                                <p>An all-day camp focusing on sport specific skills and defensive fundamentals for
+                                    young athletes.</p>
+                                <div class="events-location">Various Club Facilities | 9:00 AM - 4:00 PM</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="events-timeline-item">
+                    <div class="events-timeline-dot"></div>
+                    <div class="events-timeline-date">October 19th</div>
+                    <div class="events-timeline-content">
+                        <div class="events-card">
+                            <a href="details.html#event-clinic">
+                                <h4>Youth Basketball Clinic</h4>
+                                <p>An all-day camp focusing on shooting and defensive fundamentals for ages 8-14</p>
+                                <div class="events-location">Indoor Arena Courts 1-2 | 9:00 AM - 3:00 PM</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="events-timeline-item">
+                    <div class="events-timeline-dot"></div>
+                    <div class="events-timeline-date">October 20th</div>
+                    <div class="events-timeline-content">
+                        <div class="events-card">
+                            <a href="details.html#event-triathlon">
+                                <h4>Annual Community Triathlon</h4>
+                                <p>Open to all ages! Compete in swimming, biking, and running challenges around the
+                                    club's campus and local park.</p>
+                                <div class="events-location">Olympic Pool & Outdoor Track | 7:00 AM start</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="events-timeline-item">
+                    <div class="events-timeline-dot"></div>
+                    <div class="events-timeline-date">November 5th</div>
+                    <div class="events-timeline-content">
+                        <div class="events-card"> <a href="details.html#event-spin-marathon">
+                                <h4>Spin Class Marathon for Charity</h4>
+                                <p>Ride for a cause! Sign up for a 2 or 4-hour slot. All proceeds go to local youth
+                                    sports.</p>
+                                <div class="events-location">Cycling Studio | 10:00 AM - 4:00 PM</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

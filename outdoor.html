@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club-Outdoor Sports</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+          <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle active">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li class="active"><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-background-image">
+            <img src="assets/images/herobg.jpg" alt="">
+        </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h2 class="header-title">
+                Experience the Outdoors. <span style="color: var(--accent-orange);">Sun, Turf, and Open Air.</span>
+            </h2>
+            <p class="hero-text">
+                Enjoy world-class, dedicated facilities under the sky. Dedicated courts, professional fields, and an
+                Olympic-sized pool await your best performance.
+            </p>
+            <a href="#reservation-form-modal" class="btn primary-btn">
+                Book a Field or Lane Today
+            </a>
+        </div>
+    </main>
+
+    <!-- SECTION 1 (Outdoor Sports) -->
+    <section class="sports-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3>
+                Premiere Outdoor Facilities
+            </h3>
+
+            <div class="sports-grid">
+
+
+                <a href="details.html#olympic-pool" class="sport-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sport-icon">
+                        <path
+                            d="M12 2.69l5.66 5.66c-1.33 2.6-3.79 5.37-5.66 7.04-1.87-1.67-4.33-4.44-5.66-7.04L12 2.69z">
+                        </path>
+                        <path d="M16 17c1.47-1.63 2.93-3.3 4-5.27V12a8 8 0 0 0-16 0v-0.27c1.07 1.97 2.53 3.64 4 5.27">
+                        </path>
+                    </svg>
+                    <h4>Olympic Pool</h4>
+                    <p>Eight-lane, $50\text{m}$ heated pool with competitive starting blocks. Click for details!</p>
+                </a>
+
+
+                <a href="details.html#fifa-field" class="sport-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sport-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M8 12a4 4 0 0 0 8 0H8z"></path>
+                        <path d="M12 2v20"></path>
+                        <path d="M2 12h20"></path>
+                        <path d="M16 4.31a10 10 0 0 0-8 0"></path>
+                        <path d="M16 19.69a10 10 0 0 1-8 0"></path>
+                    </svg>
+                    <h4>FIFA Regulation Field</h4>
+                    <p>Natural grass pitch for competitive soccer, available for full or half-field booking. Click for
+                        details!</p>
+                </a>
+
+
+                <a href="details.html#athletics-track" class="sport-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sport-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 2a10 10 0 0 0-7 17.39"></path>
+                        <path d="M12 22a10 10 0 0 0 7-17.39"></path>
+                        <path d="M8 10h8"></path>
+                        <path d="M8 14h8"></path>
+                        <path d="M12 10v4"></path>
+                    </svg>
+                    <h4>Athletics Track</h4>
+                    <p>$400\text{m}$ all-weather surface, perfect for running, training, and speed work. Click for
+                        details!</p>
+                </a>
+
+
+                <a href="details.html#hard-courts" class="sport-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sport-icon">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M12 3v18"></path>
+                        <path d="M3 12h18"></path>
+                        <path d="M7 7l10 10"></path>
+                        <path d="M17 7l-10 10"></path>
+                    </svg>
+                    <h4>Hard Courts</h4>
+                    <p>Ten specialized hard courts for tennis and dedicated pickleball zones. Click for details!</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2 (Outdoor Features) -->
+    <section class="features-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3>
+                The Ryan Advantage
+            </h3>
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feature-icon">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2"></path>
+                        <path d="M12 20v2"></path>
+                        <path d="M4.93 4.93l1.41 1.41"></path>
+                        <path d="M17.66 17.66l1.41 1.41"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="M4.93 19.07l1.41-1.41"></path>
+                        <path d="M17.66 6.34l1.41-1.41"></path>
+                    </svg>
+                    <h5>Ample Natural Light</h5>
+                    <p>Training under the natural sky improves mood, focus, and Vitamin D intake for optimal
+                        performance.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feature-icon">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M22 6c0 1.5-1 4-4 4s-4-2.5-4-4c0-2.5 2-4 4-4s4 1.5 4 4z"></path>
+                    </svg>
+                    <h5>Pro-Grade All-Weather Surfaces</h5>
+                    <p>Our fields and courts feature synthetic turf and hard court surfaces built for consistency and
+                        safety in all conditions.</p>
+                </div>
+
+                <div class="feature-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feature-icon">
+                        <path d="M15 3h6v6"></path>
+                        <path d="M18 6h-6"></path>
+                        <path d="M9 21H3v-6"></path>
+                        <path d="M6 18v6"></path>
+                        <path d="M21 15v6"></path>
+                        <path d="M15 21h6"></path>
+                        <path d="M3 9V3h6"></path>
+                        <path d="M9 3H3"></path>
+                    </svg>
+                    <h5>Vast & Open Layouts</h5>
+                    <p>Plenty of dedicated space ensures comfortable training, social distancing, and large-scale league
+                        play.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="booking" class="facility-section"
+        style="background-color: rgba(76, 120, 255, 0.3); border-top: 1px solid #3b82f6; text-align: center;">
+        <div class="container">
+            <h3 style="color: white;">Ready to Play?</h3>
+            <p class="section-subtitle" style="color: #bfdbfe; border-color: transparent;">
+                Check facility availability and secure your spot now. Our online booking system is fast and easy.
+            </p>
+            <div class="cta-buttons" style="display: flex; justify-content: center; gap: 1rem;">
+                <a href="#reservation-form-modal" class="primary-btn btn btn-cta-reserve"
+                    style="border-radius: 0.5rem; padding: 1rem 3rem;">Reserve a Spot</a>
+                <a href="schedules.html" class=" btn btn-cta-membership"
+                    style="background-color: rgba(255, 255, 255, 0.9); color: var(--primary-dark); border-radius: 0.5rem; padding: 1rem 3rem;">View
+                    Schedule</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+
+
+    <!-- booking form modal -->
+    <div id="reservation-form-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <a href="#" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Facility Reservation Request</h3>
+                <p class="modal-description" style="text-align: center;">
+                    Please fill out the form below to request a booking. A member of our team will confirm your
+                    reservation within 24 hours.
+                </p>
+
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="facility">Select Facility/Service to Book</label>
+                        <select id="facility" name="facility" required>
+                            <option value="" disabled selected>--- Choose a Facility or Service ---</option>
+                            <option value="club-tour">Club Tour (Free)</option>
+                            <option value="basketball-courts">Basketball Courts (Court Booking)</option>
+                            <option value="volleyball-arena">Volleyball Arena (Court Booking)</option>
+                            <option value="futsal-field">Futsal Field Court</option>
+                            <option value="olympic-pool-lane">Olympic Pool (Lane Booking)</option>
+                            <option value="fifa-regulation-field">FIFA Regulation Field</option>
+                            <option value="athletics-track">Athletics Track (Session Booking)</option>
+                            <option value="fitness-studio-class">Fitness Studio (Class Booking)</option>
+                            <option value="yoga-class">Yoga Class</option>
+                            <option value="recovery-center-service">Recovery Center Service (e.g., Cryo)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferredDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time Slot</label>
+                        <input type="time" id="time" name="preferredTime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duration">Approximate Duration (Hours)</label>
+                        <input type="number" id="duration" name="duration" min="0.5" step="0.5" value="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attendees">Number of Attendees</label>
+                        <input type="number" id="attendees" name="attendees" min="1" value="1" required>
+                    </div>
+
+                    <div class="modal-cta form-submit-btn">
+                        <button type="submit" class="primary-btn btn"
+                            style="border-radius: 0.5rem; padding: 1rem 2rem;">
+                            SUBMIT RESERVATION
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

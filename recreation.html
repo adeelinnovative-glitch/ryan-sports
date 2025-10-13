@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - Recreation & Wellness </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle active">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li class="active"><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-background-image">
+            <img src="assets/images/herobg.jpg" alt="">
+        </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h2 class="header-title">
+                Beyond the Court. <span class="text-accent-orange">Total Wellness.</span>
+            </h2>
+            <p class="hero-text">
+                Explore our full suite of recreational and health facilities. From group fitness to relaxation, find
+                your balance here.
+            </p>
+            <a href="schedules.html" class="btn primary-btn">
+                View Classes & Schedules
+            </a>
+        </div>
+    </main>
+    <!-- Sports Section -->
+
+    <section id="activities" class="sports-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3 style="color: var(--accent-blue);">
+                Recreation & Wellness Offerings
+            </h3>
+
+            <div class="sports-grid">
+
+                <a href="details.html#fitness-studio" class="sport-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="activity-icon">
+                        <path d="m7.5 7.5 9 9"></path>
+                        <path
+                            d="m6.2 18.2-1.4 1.4c-.6.6-1.5 1-2.4 1s-1.8-.4-2.4-1L.2 18.2c-.6-.6-1-1.5-1-2.4s.4-1.8 1-2.4l1.4-1.4">
+                        </path>
+                        <path
+                            d="m18.2 6.2 1.4-1.4c.6-.6 1-1.5 1-2.4s-.4-1.8-1-2.4L18.2.2c-.6-.6-1.5-1-2.4-1s-1.8.4-2.4 1l-1.4 1.4">
+                        </path>
+                    </svg>
+                    <h4>Fitness Studio</h4>
+                    <p>Modern equipment, free weights, and dedicated cardio zones for all intensity levels.</p>
+                </a>
+
+                <a href="details.html#yoga-studio" class="sport-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="activity-icon">
+                        <path
+                            d="M12 2a4 4 0 0 0-4 4v.5a.5.5 0 0 1-.5.5h-3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3.5a.5.5 0 0 1-.5-.5V6a4 4 0 0 0-4-4z">
+                        </path>
+                        <circle cx="12" cy="18" r="2"></circle>
+                        <path d="M10 18h4"></path>
+                    </svg>
+                    <h4>Yoga & Pilates</h4>
+                    <p>Serene studios offering a variety of classes from Vinyasa to restorative stretching.</p>
+                </a>
+
+                <a href="details.html#squash" class="sport-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="activity-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
+                    <h4>Squash Courts</h4>
+                    <p>Two international standard courts available for hourly bookings and league play.</p>
+                </a>
+
+                <a href="details.html#cycling-studio" class="sport-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                        stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="activity-icon">
+                        <circle cx="5" cy="18" r="3"></circle>
+                        <circle cx="19" cy="18" r="3"></circle>
+                        <path d="M12 18h2v-4l-3-3h-3a3 3 0 0 0-3 3v2h2"></path>
+                        <path d="M10 12l-2-2"></path>
+                    </svg>
+                    <h4>Cycling Studio</h4>
+                    <p>High-energy spin classes in a dynamic lighting environment with top instructors.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Features section -->
+
+    <section class="features-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3 style="color: white; border-color: var(--blue-700-50);">
+                Health & Recovery Focus
+            </h3>
+            <div class="features-grid">
+                <div class="feature-card"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feature-icon">
+                        <path d="M4.5 14.5L12 7l7.5 7.5"></path>
+                        <path d="M4.5 14.5a2.5 2.5 0 0 0 0 3.5 2.5 2.5 0 0 0 3.5 0 2.5 2.5 0 0 0 0-3.5"></path>
+                        <path d="M12 7a2.5 2.5 0 0 0 0 3.5 2.5 2.5 0 0 0 3.5 0 2.5 2.5 0 0 0 0-3.5"></path>
+                        <path d="M16 14.5a2.5 2.5 0 0 0 0 3.5 2.5 2.5 0 0 0 3.5 0 2.5 2.5 0 0 0 0-3.5"></path>
+                    </svg>
+                    <h5>On-Site Therapy</h5>
+                    <p>Access to licensed physiotherapists and massage therapists for recovery and injury prevention.
+                    </p>
+                </div>
+                <div class="feature-card"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feature-icon">
+                        <path d="M2 12s3-4 10-4 10 4 10 4-3 4-10 4-10-4-10-4Z"></path>
+                        <path d="M7 12a5 5 0 1 1 10 0"></path>
+                        <path d="M12 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"></path>
+                    </svg>
+                    <h5>Sauna & Steam</h5>
+                    <p>Premium dry sauna and aromatic steam rooms for detoxification and muscle relaxation after a
+                        workout.</p>
+                </div>
+                <div class="feature-card"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 24 24" stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feature-icon">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                        <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                        <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                    </svg>
+                    <h5>Supervised Childcare</h5>
+                    <p>Peace of mind while you train. Our secure kids club offers fun activities for younger members.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- booking section -->
+
+
+    <section id="booking" class="facility-section"
+        style="background-color: rgba(76, 120, 255, 0.3); border-top: 1px solid #3b82f6; text-align: center;">
+        <div class="container">
+            <h3 style="color: white;">Start Your Wellness Journey</h3>
+            <p class="section-subtitle" style="color: #bfdbfe; border-color: transparent;">
+                Browse our class schedule and register for your free introductory session today!
+            </p>
+            <div class="cta-buttons" style="display: flex; justify-content: center; gap: 1rem;">
+                <a href="#reservation-form-modal" class="primary-btn btn btn-cta-reserve"
+                    style="border-radius: 0.5rem; padding: 1rem 3rem;">Trial Pass Request</a>
+                <a href="schedules.html" class=" btn btn-cta-membership"
+                    style="background-color: rgba(255, 255, 255, 0.9); color: var(--primary-dark); border-radius: 0.5rem; padding: 1rem 3rem;">View
+                    View Class Schedule</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="#">MEMBERSHIP INFO</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">CAREERS</a></li>
+            </ul>
+            <p class="copyright">&copy; 2024 RYAN Sports Club</p>
+        </div>
+    </footer>
+    <!-- booking form -->
+    <div id="reservation-form-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <a href="#" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Facility Reservation Request</h3>
+                <p class="modal-description" style="text-align: center;">
+                    Please fill out the form below to request a booking. A member of our team will confirm your
+                    reservation within 24 hours.
+                </p>
+
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="facility">Select Facility/Service to Book</label>
+                        <select id="facility" name="facility" required>
+                            <option value="" disabled selected>--- Choose a Facility or Service ---</option>
+                            <option value="club-tour">Club Tour (Free)</option>
+                            <option value="basketball-courts">Basketball Courts (Court Booking)</option>
+                            <option value="volleyball-arena">Volleyball Arena (Court Booking)</option>
+                            <option value="futsal-field">Futsal Field Court</option>
+                            <option value="olympic-pool-lane">Olympic Pool (Lane Booking)</option>
+                            <option value="fifa-regulation-field">FIFA Regulation Field</option>
+                            <option value="athletics-track">Athletics Track (Session Booking)</option>
+                            <option value="fitness-studio-class">Fitness Studio (Class Booking)</option>
+                            <option value="yoga-class">Yoga Class</option>
+                            <option value="recovery-center-service">Recovery Center Service (e.g., Cryo)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferredDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time Slot</label>
+                        <input type="time" id="time" name="preferredTime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duration">Approximate Duration (Hours)</label>
+                        <input type="number" id="duration" name="duration" min="0.5" step="0.5" value="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attendees">Number of Attendees</label>
+                        <input type="number" id="attendees" name="attendees" min="1" value="1" required>
+                    </div>
+
+                    <div class="modal-cta form-submit-btn">
+                        <button type="submit" class="primary-btn btn"
+                            style="border-radius: 0.5rem; padding: 1rem 2rem;">
+                            SUBMIT RESERVATION
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

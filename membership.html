@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - Membership Plans</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li class="active"><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+<section class="hero-body">
+    <div class="hero-background-image">
+        <img src="assets/images/herobg.jpg" alt="">
+    </div>
+    <header class="section-header">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h1 style="font-size: 3rem;">
+                Join the Club. Unlock Your <span style="color: var(--accent-orange);">Full Potential.</span>
+            </h1>
+            <p class="membership-section-subtitle">
+                Choose the plan that fits your lifestyle. Every membership includes access to our core facilities, but
+                some offer greater flexibility and exclusive benefits.
+            </p>
+        </div>
+    </header>
+    <!-- Pricing Section -->
+    <section id="plans" class="pricing-section">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <div class="pricing-grid">
+
+                <div class="pricing-card">
+                    <h2 class="plan-title" style="color: var(--text-light);">Essential Access</h2>
+                    <p class="plan-price">$79<sub>/month</sub></p>
+                    <ul class="plan-features">
+                        <li><span class="check-icon">✓</span> Full Gym & Cardio Access</li>
+                        <li><span class="check-icon">✓</span> Group Fitness Classes (Tier 1)</li>
+                        <li><span class="check-icon">✓</span> Open Swim & Lap Pool Access</li>
+                        <li><span class="check-icon">✓</span> 7-Day Advance Booking Window</li>
+                        <li style="color: var(--text-blue-400);"><span class="check-icon" style="color: gray;">•</span>
+                            Squash/Court Fees Apply</li>
+                        <li style="color: var(--text-blue-400);"><span class="check-icon" style="color: gray;">•</span>
+                            Limited Guest Passes</li>
+                    </ul>
+                    <a href="#enroll-form" class="card-btn">Select Essential</a>
+                </div>
+
+                <div class="pricing-card highlight">
+                    <h2 class="plan-title" style="color: var(--accent-blue);">Executive Plus</h2>
+                    <p class="plan-price">$129<sub>/month</sub></p>
+                    <ul class="plan-features">
+                        <li><span class="check-icon">✓</span> **All Essential Benefits**</li>
+                        <li><span class="check-icon">✓</span> **Unlimited Court Booking (No Fee)**</li>
+                        <li><span class="check-icon">✓</span> Group Fitness Classes (All Tiers)</li>
+                        <li><span class="check-icon">✓</span> Access to Sauna & Steam Rooms</li>
+                        <li><span class="check-icon">✓</span> 14-Day Priority Booking Window</li>
+                        <li><span class="check-icon">✓</span> Complimentary Towel Service</li>
+                    </ul>
+                    <a href="#enroll-form" class="card-btn">Select Executive</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h2 class="plan-title" style="color: var(--text-light);">Family Unlimited</h2>
+                    <p class="plan-price">$199<sub>/month</sub></p>
+                    <ul class="plan-features">
+                        <li><span class="check-icon">✓</span> **All Executive Benefits**</li>
+                        <li><span class="check-icon">✓</span> Includes 2 Adults + 2 Dependents</li>
+                        <li><span class="check-icon">✓</span> Access to Supervised Childcare</li>
+                        <li><span class="check-icon">✓</span> Exclusive Family Swim Time</li>
+                        <li><span class="check-icon">✓</span> Discount on Youth Programs</li>
+                        <li><span class="check-icon">✓</span> $25 Monthly Credit for Guests</li>
+                    </ul>
+                    <a href="#enroll-form" class="card-btn">Select Family</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </section>
+    <!-- Enrollment Form -->
+    <section id="enroll-form" class="form-section">
+        <div class="container">
+            <div class="form-container"data-aos="fade-up" data-aos-delay="700">
+                <div class="form-header">
+                    <h3>Membership Enrollment Form</h3>
+                    <p>Complete the form below and a representative will contact you within 24 hours.</p>
+                </div>
+
+                <form>
+
+                    <div class="grid-2">
+                        <div class="membership-form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first_name" required>
+                        </div>
+                        <div class="membership-form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last_name" required>
+                        </div>
+                    </div>
+
+                    <div class="membership-form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="membership-form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                    </div>
+
+                    <div class="membership-form-group">
+                        <label for="plan">Interested Plan</label>
+                        <select id="plan" name="plan" required>
+                            <option value="">— Select a plan —</option>
+                            <option value="essential">Essential Access ($79/month)</option>
+                            <option value="executive">Executive Plus ($129/month)</option>
+                            <option value="family">Family Unlimited ($199/month)</option>
+                            <option value="trial">Request Trial Pass</option>
+                        </select>
+                    </div>
+
+                    <div class="membership-form-group">
+                        <label for="comment">Questions or Comments (Optional)</label>
+                        <textarea id="comment" name="comment" rows="4"
+                            placeholder="Let us know if you have specific facilities or programs you are interested in."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Enrollment Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer" style="background-color: var(--primary-dark);">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

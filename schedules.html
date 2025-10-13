@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYAN Sports Club - Schedules & Availability</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li class="active"><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="hero-background-image">
+            <img src="assets/images/herobg.jpg" alt="">
+        </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h1 class="page-title">COURT & TRACK SCHEDULES</h1>
+            <p class="page-subtitle">Check real-time availability and view daily class schedules.</p>
+        </div>
+    </header>
+
+    <main class="main-content" style="background-color: var(--primary-dark);">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <!-- Availability checker -->
+            <section class="section availability-checker">
+                <h2 class="section-title">Check Real-Time Availability</h2>
+                <div class="availability-checker-form">
+                    <form>
+                        <div class="checker-form-grid">
+                            <select class="form-select" required>
+                                <option value="" disabled selected>Select Facility/Sport</option>
+                                <option value="tennis">Tennis Court 1</option>
+                                <option value="basketball">Basketball Arena</option>
+                                <option value="pool-lane-2">Olympic Pool (Lane 2)</option>
+                                <option value="track-inner">Athletics Track (Inner)</option>
+                                <option value="yoga-studio">Yoga Studio</option>
+                            </select>
+
+                            <input type="date" class="form-date-input" value="2025-10-06" required>
+
+                            <select class="form-select" required>
+                                <option value="" disabled selected>Select Time Slot</option>
+                                <option value="0900">9:00 AM</option>
+                                <option value="1100">11:00 AM</option>
+                                <option value="1300">1:00 PM</option>
+                                <option value="1500">3:00 PM</option>
+                                <option value="1700">5:00 PM</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn primary-btn" style="border-radius: 0.5rem;">Check
+                            Availability</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Schedule Table -->
+            <section class="section daily-schedule">
+                <h2 class="section-title">Daily Activity & Class Schedule</h2>
+                <div class="schedule-table-wrapper"data-aos="fade-up" data-aos-delay="700">
+                    <table class="schedule-table ">
+                        <thead>
+                            <tr>
+                                <th class="time-col">Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="time-col">8:00 AM</td>
+                                <td class="status-class">Yoga Flow (Studio A)</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-class">Spin Class (Gym)</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-booked">Tennis Reserved</td>
+                                <td class="status-class">Family Swim (Pool)</td>
+                            </tr>
+                            <tr>
+                                <td class="time-col">10:00 AM</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-booked">Basketball League</td>
+                                <td class="status-class">Pilates (Studio B)</td>
+                                <td class="status-booked">Volleyball Practice</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-booked">Track Training</td>
+                            </tr>
+                            <tr>
+                                <td class="time-col">12:00 PM</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-booked">Soccer Field Reserved</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-class">Lunch Run (Track)</td>
+                                <td class="status-class">Zumba (Studio A)</td>
+                                <td class="status-available">Available</td>
+                            </tr>
+                            <tr>
+                                <td class="time-col">2:00 PM</td>
+                                <td class="status-booked">Pool Maintenance</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-class">Crossfit (Gym)</td>
+                                <td class="status-available">Available</td>
+                                <td class="status-booked">Tennis Reserved</td>
+                                <td class="status-available">Available</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="booknow"> <a href="#reservation-form-modal" class="btn primary-btn">
+                        Book Now
+                    </a></div>
+
+            </section>
+
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+
+    <!-- booking form -->
+    <div id="reservation-form-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <a href="#" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Facility Reservation Request</h3>
+                <p class="modal-description" style="text-align: center;">
+                    Please fill out the form below to request a booking. A member of our team will confirm your
+                    reservation within 24 hours.
+                </p>
+
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="facility">Select Facility/Service to Book</label>
+                        <select id="facility" name="facility" required>
+                            <option value="" disabled selected>--- Choose a Facility or Service ---</option>
+                            <option value="club-tour">Club Tour (Free)</option>
+                            <option value="basketball-courts">Basketball Courts (Court Booking)</option>
+                            <option value="volleyball-arena">Volleyball Arena (Court Booking)</option>
+                            <option value="futsal-field">Futsal Field Court</option>
+                            <option value="olympic-pool-lane">Olympic Pool (Lane Booking)</option>
+                            <option value="fifa-regulation-field">FIFA Regulation Field</option>
+                            <option value="athletics-track">Athletics Track (Session Booking)</option>
+                            <option value="fitness-studio-class">Fitness Studio (Class Booking)</option>
+                            <option value="yoga-class">Yoga Class</option>
+                            <option value="recovery-center-service">Recovery Center Service (e.g., Cryo)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferredDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time Slot</label>
+                        <input type="time" id="time" name="preferredTime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duration">Approximate Duration (Hours)</label>
+                        <input type="number" id="duration" name="duration" min="0.5" step="0.5" value="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attendees">Number of Attendees</label>
+                        <input type="number" id="attendees" name="attendees" min="1" value="1" required>
+                    </div>
+
+                    <div class="modal-cta">
+                        <button type="submit" class="primary-btn btn"
+                            style="border-radius: 0.5rem; padding: 1rem 2rem;">
+                            SUBMIT RESERVATION
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>

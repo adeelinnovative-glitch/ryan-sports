@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Sports Club - All Facilities Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<body>
+
+    <!-- navbar -->
+    <nav class="main-navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt=""></a>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="dropdown-container">
+                    <input type="checkbox" id="dropdown-checkbox" class="dropdown-checkbox">
+                    <label for="dropdown-checkbox" class="dropdown-toggle active">
+                        FACILITIES
+                    </label>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="facilities.html">Facilities Overview</a></li>
+                        <li class="dropdown-separator"></li>
+                        <li><a href="indoor.html">Indoor Arena</a></li>
+                        <li><a href="outdoor.html">Outdoor Sports</a></li>
+                        <li><a href="recreation.html">Recreation & Wellness</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="schedules.html">SCHEDULES</a></li>
+                <li><a href="events.html">EVENTS & NEWS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="facilities-header">
+         <div class="hero-background-image">
+               <img src="assets/images/herobg.jpg" alt="">
+          </div>
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h2>
+                World-Class Facilities. <span>Endless Possibilities.</span>
+            </h2>
+            <p class="section-subtitle">
+                Explore every court, studio, and pool we offer. Your next personal best starts here.
+            </p>
+            <div>
+                <a href="schedules.html" class="btn primary-btn">
+                    View Schedules & Bookings
+                </a>
+            </div>
+        </div>
+    </main>
+    <!-- indoor sports -->
+    <section id="indoor-sports" class="facility-section indoor-sports-bg">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3>Indoor Sports Arena</h3>
+            <p class="section-subtitle" style="border-color: rgba(255, 120, 73, 0.5); color: var(--text-blue-300);">
+                Dedicated courts for competitive play and training, rain or shine.
+            </p>
+
+            <div class="facility-grid">
+                <!-- card 1 -->
+                <a href="#basketball-modal" class="facility-link">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M7.7 7.7l8.6 8.6"></path>
+                            <path d="M16.3 7.7l-8.6 8.6"></path>
+                        </svg>
+                        <h4>Basketball Courts</h4>
+                        <p>Four full-sized courts with sprung wooden flooring.</p>
+                    </div>
+                </a>
+                <!-- card 2 -->
+                <a href="#volleyball-modal" class="facility-link">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 2v20"></path>
+                            <path d="M22 12H2"></path>
+                            <path d="M12 7l4 5-4 5-4-5z"></path>
+                        </svg>
+                        <h4>Volleyball Arena</h4>
+                        <p>Specialized non-slip synthetic surface and adjustable nets.</p>
+                    </div>
+                </a>
+                <!-- card 3 -->
+                <a href="#futsal-modal" class="facility-link">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <path d="M4 14C2 14 1 12 1 12s1-2 3-2h16c2 0 3 2 3 2s-1 2-3 2H4z"></path>
+                            <path d="M4 10v4"></path>
+                            <path d="M20 10v4"></path>
+                            <path d="M12 10v4"></path>
+                            <path d="M17 12h-1"></path>
+                            <path d="M7 12h1"></path>
+                        </svg>
+                        <h4>Indoor Futsal Field</h4>
+                        <p>Premium turf field for 5v5 soccer and group drills.</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- recreations -->
+    <section id="recreation" class="facility-section recreation-bg">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+            <h3 style="color: var(--accent-blue);">Recreation & Wellness</h3>
+            <p class="section-subtitle" style="border-color: rgba(76, 120, 255, 0.5); color: var(--text-blue-300);">
+                Focus on recovery, fitness, and total mind-body health.
+            </p>
+
+            <div class="facility-grid">
+                <!-- card 1 -->
+                <a href="#modal-fitness" class="facility-link" style="background-color: var(--secondary-dark);">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="card-icon">
+                            <path d="m7.5 7.5 9 9"></path>
+                            <path
+                                d="m6.2 18.2-1.4 1.4c-.6.6-1.5 1-2.4 1s-1.8-.4-2.4-1L.2 18.2c-.6-.6-1-1.5-1-2.4s.4-1.8 1-2.4l1.4-1.4">
+                            </path>
+                            <path
+                                d="m18.2 6.2 1.4-1.4c.6-.6 1-1.5 1-2.4s-.4-1.8-1-2.4L18.2.2c-.6-.6-1.5-1-2.4-1s-1.8.4-2.4 1l-1.4 1.4">
+                            </path>
+                        </svg>
+                        <h4>Gym & Studio</h4>
+                        <p>Modern equipment, personal training, and expansive weight room.</p>
+                    </div>
+                </a>
+                <!-- card 2 -->
+                <a href="#modal-yoga" class="facility-link" style="background-color: var(--secondary-dark);">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="card-icon">
+                            <path
+                                d="M12 2a4 4 0 0 0-4 4v.5a.5.5 0 0 1-.5.5h-3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3.5a.5.5 0 0 1-.5-.5V6a4 4 0 0 0-4-4z">
+                            </path>
+                            <circle cx="12" cy="18" r="2"></circle>
+                        </svg>
+                        <h4>Yoga Studio</h4>
+                        <p>Two dedicated studios for flow, restorative and hot yoga practices.</p>
+                    </div>
+                </a>
+                <!-- card 3 -->
+                <a href="#modal-recovery" class="facility-link" style="background-color: var(--secondary-dark);">
+                    <div class="card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="card-icon">
+                            <path d="M2 12s3-4 10-4 10 4 10 4-3 4-10 4-10-4-10-4Z"></path>
+                            <path d="M7 12a5 5 0 1 1 10 0"></path>
+                            <path d="M12 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"></path>
+                        </svg>
+                        <h4>Recovery Center</h4>
+                        <p>Saunas, steam rooms, and on-site physical therapy access.</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- outdoor sports -->
+    <section id="outdoor-sports" class="facility-section outdoor-sports-bg">
+        <div class="container"data-aos="fade-up" data-aos-delay="700">
+
+            <h3 style="color: var(--accent-orange);">Outdoor Sports Facilities</h3>
+            <p class="section-subtitle" style="border-color:  rgba(255, 120, 73, 0.5); color: var(--text-blue-300);">
+                Sun-drenched spaces for performance training and seasonal competitions.
+            </p>
+
+            <div class="facility-grid">
+
+                <!-- Card 1: -->
+                <a href="#pool-modal" class="facility-link">
+                    <div class="card-content">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <path d="M2 12s3-4 8-4 5 4 11 4"></path>
+                            <path d="M2 18s3-4 8-4 5 4 11 4"></path>
+                            <path d="M12 4v4"></path>
+                        </svg>
+                        <h4>Olympic Pool (50M)</h4>
+                        <p>Certified 50-meter lanes for training and professional competition.</p>
+                    </div>
+                </a>
+                <!-- card 2 -->
+
+                <a href="#soccer-modal" class="facility-link">
+                    <div class="card-content">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <path d="M18 6L6 6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z"></path>
+                            <path d="M6 10h12"></path>
+                            <path d="M12 10v8"></path>
+                            <path d="M8 6v12"></path>
+                            <path d="M16 6v12"></path>
+                        </svg>
+                        <h4>FIFA Regulation Field</h4>
+                        <p>Meticulously maintained natural grass field with competitive floodlighting.</p>
+                    </div>
+                </a>
+
+                <!-- card 3 -->
+                <a href="#track-modal" class="facility-link">
+                    <div class="card-content">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                            stroke="var(--accent-orange)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="card-icon">
+                            <ellipse cx="12" cy="12" rx="10" ry="6"></ellipse>
+                            <path d="M12 2v20"></path>
+                            <path d="M16 12h-8"></path>
+                        </svg>
+                        <h4>400M Athletics Track</h4>
+                        <p>All-weather synthetic track for running, jumping, and field events.</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- booking -->
+    <section id="booking" class="facility-section"
+        style="background-color: rgba(76, 120, 255, 0.3); border-top: 1px solid #3b82f6; text-align: center;">
+        <div class="container">
+            <h3 style="color: white;">Ready to Experience It All?</h3>
+            <p class="section-subtitle" style="color: #bfdbfe; border-color: transparent;">
+                Get membership info or view our comprehensive class schedules today.
+            </p>
+            <div class="cta-buttons" style="display: flex; justify-content: center; gap: 1rem;">
+                <a href="#reservation-form-modal" class="primary-btn btn"
+                    style="border-radius: 0.5rem; padding: 1rem 3rem;">Schedule a Tour</a>
+                <a href="membership.html" class=" btn"
+                    style="background-color: rgba(255, 255, 255, 0.9); color: var(--primary-dark); border-radius: 0.5rem; padding: 1rem 3rem;">Get
+                    Membership Info</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <ul class="footer-links">
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="membership.html">MEMBERSHIP INFO</a></li>
+                <li><a href="contact.html">SUPPORT</a></li>
+                <li><a href="#">TERMS OF SERVICE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+
+            </ul>
+            <p class="copyright">&copy; 2025 RYAN Sports Club</p>
+        </div>
+    </footer>
+
+    <!-- basketball modal -->
+    <div id="basketball-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#indoor-sports" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Basketball Courts</h3>
+                <div class="modal-image-placeholder"><img src="assets/images/basketball image.jpg" height="100%"
+                        width="100%" alt=""></div>
+                <p class="modal-description">
+                    Experience professional-grade indoor basketball. Our four courts are meticulously maintained and
+                    feature shock-absorbent sprung wooden flooring to reduce impact and enhance performance.
+                </p>
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>4 Regulation-sized courts (94 x 50 feet)</li>
+                        <li>NBA/FIBA approved wooden sprung floor system</li>
+                        <li>Electronic scoreboards and shot clocks on every court</li>
+                        <li>Climate-controlled environment (72°F / 22°C)</li>
+                    </ul>
+                </div>
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="primary-btn btn" style="border-radius: 0.5rem;">RESERVE
+                        NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- volleyball modal -->
+    <div id="volleyball-modal" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#indoor-sports" class="modal-close-btn">
+                    &times; </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Volleyball Arena</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/volleyball arena.jpg" height="100%" width="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Our dedicated volleyball area boasts specialized non-slip sports surfacing, ensuring maximum grip
+                    for sudden movements, dives, and jumps. Available for league play and open court sessions.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>3 High-ceiling courts with safety padding</li>
+                        <li>Specialized non-slip synthetic surface (Gerflor)</li>
+                        <li>Official competition height nets (adjustable)</li>
+                        <li>Dedicated spectator viewing area</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        RESERVE NOW
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- futsal field modal -->
+    <div id="futsal-modal" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#indoor-sports" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Indoor Futsal Field</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/futsal field.jpg" height="100%" width="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Experience fast-paced indoor soccer on our professional-grade futsal field. Featuring a cushioned,
+                    low-impact surface, it's ideal for quick footwork and reduces strain on joints. Perfect for
+                    five-a-side matches, training drills, and casual play.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>Official Futsal Dimensions (40m x 20m)</li>
+                        <li>Shock-Absorbent Polyurethane Sports Flooring</li>
+                        <li>Enclosed walls with safety padding</li>
+                        <li>High-quality, glare-free LED lighting</li>
+                        <li>Adjustable goals and scoring system</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        BOOK THE COURT
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fitness modal -->
+    <div id="modal-fitness" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#recreation" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Fitness & Weights Studio</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/fitness center.jpg" height="100%" width="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Our two-story studio features over 10,000 square feet of space dedicated to strength and
+                    cardiovascular training. It includes the latest resistance machines, extensive free weights, and a
+                    functional training turf.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Equipment & Specifications</h4>
+                    <ul>
+                        <li>Dedicated free weights area (up to 150 lbs)</li>
+                        <li>Full range of Precor and Life Fitness cardio equipment</li>
+                        <li>Separate functional training turf for sleds and plyometrics</li>
+                        <li>24/7 digital access for members</li>
+                        <li>On-site certified personal trainers available</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="schedules.html" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        VIEW CLASS SCHEDULE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- yoga modal -->
+    <div id="modal-yoga" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#recreation" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Mind & Body Yoga Studio</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/yoga studio.jpg" height="100%" width="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    A sanctuary dedicated to mindful movement. Our studio features non-slip bamboo flooring, adjustable
+                    ambient lighting, and soundproofing to ensure a tranquil and distraction-free environment for every
+                    class.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Studio Specifications</h4>
+                    <ul>
+                        <li>Eco-friendly non-slip bamboo flooring</li>
+                        <li>Capacity for 30 participants per class</li>
+                        <li>Premium mats, blocks, straps, and bolsters provided</li>
+                        <li>Specialized hot yoga capabilities (Studio B only)</li>
+                        <li>Full-length mirrors for form correction</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        BOOK A CLASS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- recovery center modal -->
+    <div id="modal-recovery" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#recreation" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Sports Recovery Center</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/recovery center.jpg" width="100%" height="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Accelerate your muscle repair and reduce soreness with our cutting-edge recovery tools. This private
+                    area is staffed by recovery specialists and is essential for maximizing performance and minimizing
+                    downtime.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Available Services</h4>
+                    <ul>
+                        <li>Full-body Compression Therapy (Normatec) stations</li>
+                        <li>Hot and cold contrast hydrotherapy baths</li>
+                        <li>Percussion and vibration massage tools</li>
+                        <li>Deep tissue and sports massage booking desk</li>
+                        <li>Quiet relaxation lounge for post-session rest</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        BOOK A SERVICE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- olympic pool modal -->
+    <div id="pool-modal" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#outdoor-sports" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">Outdoor Olympic Pool (50M)</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/olympic pool.jpg" height="100%" width="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Our outdoor Olympic-sized pool is certified for competitive swimming and offers 10 wide lanes for
+                    optimal training. The water is maintained at a comfortable, temperature-regulated level, perfect for
+                    both early morning training and recreational use.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>Certified 50-meter length, 25-meter width</li>
+                        <li>10 clearly marked competition lanes</li>
+                        <li>Temperature-controlled (heated) for year-round use</li>
+                        <li>Dedicated diving blocks and backstroke flags</li>
+                        <li>Grandstand seating for 500 spectators</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        BOOK A LANE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- soccer field modal -->
+    <div id="soccer-modal" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#outdoor-sports" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">FIFA Regulation Field</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/soccer field.jpg" width="100%" height="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Meticulously maintained natural grass field meeting all FIFA regulation standards for competitive
+                    matches and professional training camps. Equipped with high-intensity floodlights for evening play
+                    and dedicated team areas.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>FIFA Regulation Size (105m x 68m)</li>
+                        <li>Professional-grade natural turf (Bermuda grass)</li>
+                        <li>Four 1500W non-glare LED floodlight towers</li>
+                        <li>Integrated electronic scoreboard and sheltered benches</li>
+                        <li>Access to adjacent warm-up area and first-aid station</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="#reservation-form-modal" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        REQUEST BOOKING
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- track modal -->
+    <div id="track-modal" class="modal-overlay">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <a href="#outdoor-sports" class="modal-close-btn">
+                    &times;
+                </a>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-title">400M Athletics Track</h3>
+
+                <div class="modal-image-placeholder">
+                    <img src="assets/images/athletics track.jpg" width="100%" height="100%" alt="">
+                </div>
+
+                <p class="modal-description">
+                    Our 400-meter, 8-lane track features a high-performance synthetic surface, perfect for sprint
+                    training, distance running, and official meets. The infield includes full facilities for field
+                    events.
+                </p>
+
+                <div class="facility-specifications">
+                    <h4>Facility Specifications</h4>
+                    <ul>
+                        <li>IAAF Standard 400-meter circumference</li>
+                        <li>8 all-weather polyurethane running lanes</li>
+                        <li>Dedicated zones for Long/Triple Jump, Pole Vault, and Shot Put</li>
+                        <li>Timing system hookups available for event organizers</li>
+                        <li>Outdoor fitness equipment adjacent to the track</li>
+                    </ul>
+                </div>
+
+                <div class="modal-cta">
+                    <a href="schedules.html" class="btn primary-btn" style="border-radius: 0.5rem;">
+                        VIEW SCHEDULE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- booking form -->
+    <div id="reservation-form-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <a href="#" class="modal-close-btn">&times;</a>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title">Facility Reservation Request</h3>
+                <p class="modal-description" style="text-align: center;">
+                    Please fill out the form below to request a booking. A member of our team will confirm your
+                    reservation within 24 hours.
+                </p>
+
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="facility">Select Facility/Service to Book</label>
+                        <select id="facility" name="facility" required>
+                            <option value="" disabled selected>--- Choose a Facility or Service ---</option>
+                            <option value="club-tour">Club Tour (Free)</option>
+                            <option value="basketball-courts">Basketball Courts (Court Booking)</option>
+                            <option value="volleyball-arena">Volleyball Arena (Court Booking)</option>
+                            <option value="futsal-field">Futsal Field Court</option>
+                            <option value="olympic-pool-lane">Olympic Pool (Lane Booking)</option>
+                            <option value="fifa-regulation-field">FIFA Regulation Field</option>
+                            <option value="athletics-track">Athletics Track (Session Booking)</option>
+                            <option value="fitness-studio-class">Fitness Studio (Class Booking)</option>
+                            <option value="yoga-class">Yoga Class</option>
+                            <option value="recovery-center-service">Recovery Center Service (e.g., Cryo)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferredDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time Slot</label>
+                        <input type="time" id="time" name="preferredTime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duration">Approximate Duration (Hours)</label>
+                        <input type="number" id="duration" name="duration" min="0.5" step="0.5" value="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attendees">Number of Attendees</label>
+                        <input type="number" id="attendees" name="attendees" min="1" value="1" required>
+                    </div>
+
+                    <div class="modal-cta form-submit-btn">
+                        <button type="submit" class="primary-btn btn"
+                            style="border-radius: 0.5rem; padding: 1rem 2rem;">
+                            SUBMIT RESERVATION
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // whether animation should happen only once
+    easing: 'ease-in-out' // smooth animation curve
+  });
+</script>
+
+</body>
+
+</html>
